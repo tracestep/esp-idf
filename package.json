@@ -4,5 +4,5 @@
     "optional": true,
     "owner": "platformio",
     "version": "https://github.com/tracestep/esp-idf.git"
-  },
+  }
 }
