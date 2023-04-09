@@ -1,6 +1,8 @@
-"framework-espidf": {
-  "type": "framework",
-  "optional": true,
-  "owner": "platformio",
-  "version": "https://github.com/tracestep/esp-idf.git"
-},
+{
+  "framework-espidf": {
+    "type": "framework",
+    "optional": true,
+    "owner": "platformio",
+    "version": "https://github.com/tracestep/esp-idf.git"
+  },
+}
