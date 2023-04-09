@@ -818,7 +818,7 @@ static void IRAM_ATTR rmt_driver_isr_default(void *arg)
                 BaseType_t res = xRingbufferSendFromISR(p_rmt->rx_buf, (void *)addr, item_len * 4, &HPTaskAwoken);
 #endif
                 if (res == pdFALSE) {
-                    ESP_DRAM_LOGE(TAG, "RMT RX BUFFER FULL");
+                    ESP_DRAM_LOGE(TAG, "RMT RX BUFFER FULL - test");
                 }
             } else {
                 ESP_DRAM_LOGE(TAG, "RMT RX BUFFER ERROR");
